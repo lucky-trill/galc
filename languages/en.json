@@ -1,0 +1,87 @@
+{
+    "galc": {
+        "options": {
+            "default": "Default",
+            "on": "On",
+            "off": "Off",
+            "included": "Included",
+            "excluded": "Excluded",
+            "visible": "Visible",
+            "hidden": "Hidden",
+            "no-one": "No One (Use Core)",
+            "players": "Players Only (GMs Use Core)",
+            "everyone": "Everyone (Including GMs)",
+            "right": "Right HUD Column",
+            "left": "Left HUD Column",
+            "replace": "Replace Relative Elevation",
+            "no": "Don't Add Absolute Elevation"
+        },
+        "settings": {
+            "defaultSB": {
+                "label": "Default Scene Behavior",
+                "hint": "Whether scenes should default to auto changing token levels based on elevation."
+            },
+            "defaultAE": {
+                "label": "Default Absolute Elevation",
+                "hint": "Whether scenes should default to using absolute elevation instead of relative."
+            },
+            "defaultLI": {
+                "label": "Default Level Inclusion",
+                "hint": "Whether levels should be included by default as options for auto level changes."
+            },
+            "defaultLN": {
+                "label": "Default Level Nav Visibility",
+                "hint": "Whether levels should be hidden from GALC's level navigation for players by default."
+            },
+            "navDisplay": {
+                "label": "Use GALC Levels Navigation",
+                "hint": "For whom GALC should display its own levels navigation instead of the core version."
+            },
+            "hud": {
+                "label": "HUD Absolute Elevation",
+                "hint": "Where and if absolute elevation should be added as an input in the token HUD."
+            },
+            "delay": {
+                "label": "Multi-Select Delay",
+                "hint": "Delay (in ms) after changing viewed level to re-grab control of tokens."
+            },
+            "scene": {
+                "label": "Auto Level Change",
+                "hint": "Whether tokens in this scene should have their level automatically changed based on elevation."
+            },
+            "abs": {
+                "label": "Absolute Elevation",
+                "hint": "Whether tokens in this scene should display absolute elevation instead of relative."
+            },
+            "level": {
+                "label": "Level Change Inclusion",
+                "hint": "Whether this level should be included for potential auto level changes."
+            },
+            "nav": {
+                "label": "Level Nav Visibility",
+                "hint": "Whether this level should display in GALC's level navigation for players."
+            },
+            "navName": {
+                "label": "Level Nav Name",
+                "hint": "An alternative name to show to players in notifications and levels navigation."
+            },
+            "group": {
+                "label": "Level Group Name",
+                "hint": "If set, auto level changes only happen between levels with a matching name."
+            }
+        },
+        "keybinding": {
+            "notify": {
+                "label": "Display Level Info",
+                "hint": "When used, gives a notification with selected token's level and absolute elevation info."
+            }
+        },
+        "hud": {
+            "label": "Absolute Elevation"
+        },
+        "notifications": {
+            "change": "{token}'s level changed to {level}. {token}'s absolute elevation is {elevation} {units}.",
+            "notify": "{token}'s level is {level}. {token}'s absolute elevation is {elevation} {units}."
+        }
+    }
+}
