@@ -2,7 +2,7 @@
     "id": "galc",
     "title": "Global Auto Level Change",
     "description": "A module for automatically change a token's level based on elevation.",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "compatibility": {
         "minimum": "14",
         "verified": "14.365",
@@ -27,7 +27,7 @@
     ],
     "url": "https://github.com/lucky-trill/galc",
     "manifest": "https://github.com/lucky-trill/galc/releases/latest/download/module.json",
-    "download": "https://github.com/lucky-trill/galc/releases/latest/download/module.zip",
+    "download": "https://github.com/lucky-trill/galc/releases/download/1.0.0/module.zip",
     "license": "https://github.com/lucky-trill/galc/blob/main/LICENSE",
     "readme": "https://github.com/lucky-trill/galc/blob/main/README.md",
     "bugs": "https://github.com/lucky-trill/galc/issues"
