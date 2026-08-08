@@ -11,6 +11,9 @@
             "no-one": "No One (Use Core)",
             "players": "Players Only (GMs Use Core)",
             "everyone": "Everyone (Including GMs)",
+            "noElev": "No",
+            "gmElev": "Include for GMs Only",
+            "everyoneElev": "Include for Everyone",
             "right": "Right HUD Column",
             "left": "Left HUD Column",
             "replace": "Replace Relative Elevation",
@@ -33,21 +36,33 @@
                 "label": "Default Level Nav Visibility",
                 "hint": "Whether levels should be hidden from GALC's level navigation for players by default."
             },
+            "notify": {
+                "label": "Display Notifications?",
+                "hint": "Should GALC provide informative notifications every time a token's level is changed."
+            },
             "navDisplay": {
                 "label": "Use GALC Levels Navigation",
                 "hint": "For whom GALC should display its own levels navigation instead of the core version."
+            },
+            "navElevation": {
+                "label": "Include Elevations in Nav",
+                "hint": "If using GALC's level navigation, should each level's elevations be displayed in it."
             },
             "hud": {
                 "label": "HUD Absolute Elevation",
                 "hint": "Where and if absolute elevation should be added as an input in the token HUD."
             },
+            "preload": {
+                "label": "Preload Adjacent Levels?",
+                "hint": "Should assets from adjacent levels be preloaded every time viewed level changes."
+            },
             "delay": {
                 "label": "Multi-Select Delay",
-                "hint": "Delay (in ms) after changing viewed level to re-grab control of tokens."
+                "hint": "Delay (in ms) before re-grabbing control of multiple tokens."
             },
             "scene": {
                 "label": "Auto Level Change",
-                "hint": "Whether tokens in this scene should have their level automatically changed based on elevation."
+                "hint": "Whether tokens in this scene should change level automatically based on elevation."
             },
             "abs": {
                 "label": "Absolute Elevation",
@@ -73,7 +88,7 @@
         "keybinding": {
             "notify": {
                 "label": "Display Level Info",
-                "hint": "When used, gives a notification with selected token's level and absolute elevation info."
+                "hint": "When used, gives a notification with selected token's level and absolute elevation."
             }
         },
         "hud": {
