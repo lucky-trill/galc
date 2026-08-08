@@ -1,7 +1,7 @@
 {
     "id": "galc",
     "title": "Global Auto Level Change",
-    "description": "A module for automatically change a token's level based on elevation.",
+    "description": "A module for automatically changing a token's level based on elevation. Also has absolute elevation options.",
     "version": "1.0.0",
     "compatibility": {
         "minimum": "14",
