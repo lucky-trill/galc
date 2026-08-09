@@ -242,7 +242,7 @@ function renderSceneConfig(app, html, context, options) {
 Hooks.on("renderSceneConfig", renderSceneConfig);
 
 Hooks.on("updateScene", async (scene, change, options) => {
-  if (scene && change?.flags[`${id}`]?.abs) {
+  if (scene && change && change?.flags[`${id}`]?.abs) {
     await canvas.draw();
   }
 });
