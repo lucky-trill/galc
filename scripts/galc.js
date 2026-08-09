@@ -439,7 +439,7 @@ function absoluteElevation(token) {
   if (flag === "on" || (flag === "default" && defaultAE === "on")) {
     const elev = Math.round(doc.elevation);
     if (!isNaN(elev)) {
-      const sign = (Math.abs(elev) === elev) ? "+" : "-";
+      const sign = (Math.abs(elev) === elev) ? "+" : "";
       const unit = doc.parent.grid.units;
       token.tooltip.text = (elev === 0) ? "" : `${sign}${elev} ${unit}`;
     }
